@@ -7,7 +7,7 @@ use Carp;
 
 use vars qw/$VERSION $RULE $DECLARATION $COMMENT $CHARSET $MEDIA $IMPORT $PLACEHOLDER/;
 
-$VERSION = '0.0101';
+$VERSION = '0.2';
 
 $RULE = qr/([^{}~;]+)\{([^{}]*)\}/;
 
@@ -229,7 +229,7 @@ CSS::Packer - Another CSS minifier
 
 =head1 VERSION
 
-Version 0.0101
+Version 0.2
 
 =head1 SYNOPSIS
 
