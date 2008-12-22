@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                CSS-Packer
-version:             0.1
+version:             0.0101
 abstract:            Another CSS minifier
 license:             perl
 author:              

@@ -7,7 +7,7 @@ use Carp;
 
 use vars qw/$VERSION $RULE $DECLARATION $COMMENT $CHARSET $MEDIA $IMPORT $PLACEHOLDER/;
 
-$VERSION = '0.1';
+$VERSION = '0.0101';
 
 $RULE = qr/([^{}~;]+)\{([^{}]*)\}/;
 
@@ -85,6 +85,7 @@ sub minify {
 			$value =~ s/~string_(\d+)~/$strings[$1]/egsm;
 		}
 		else {
+			$value =~ s/\s*,\s*/,/gsm;
 			$value =~ s/\s+/ /gsm;
 		}
 		
@@ -228,7 +229,7 @@ CSS::Packer - Another CSS minifier
 
 =head1 VERSION
 
-Version 0.01
+Version 0.0101
 
 =head1 SYNOPSIS
 
