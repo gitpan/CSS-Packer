@@ -1,5 +1,17 @@
 .cvsignore
+.gitignore
 Changes
+inc/Module/AutoInstall.pm
+inc/Module/Install.pm
+inc/Module/Install/AutoInstall.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Include.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
 lib/CSS/Packer.pm
 Makefile.PL
 MANIFEST
@@ -15,4 +27,7 @@ t/stylesheets/s3-expected.css
 t/stylesheets/s3.css
 t/stylesheets/s4-expected.css
 t/stylesheets/s4.css
-META.yml                                 Module meta-data (added by MakeMaker)
+t/stylesheets/s5-expected.css
+t/stylesheets/s5.css
+t/stylesheets/s6-expected.css
+t/stylesheets/s6.css
