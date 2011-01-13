@@ -1,5 +1,8 @@
 Revision history for CSS-Packer
 
+0.05_01 2011-01-10
+    - Changed required perl version to 5.8.8 for smoke test.
+
 0.0401  2011-01-05
     - Changed requirements to Regexp::RegGrp 0.04
 
