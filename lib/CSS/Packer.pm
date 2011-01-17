@@ -1,16 +1,16 @@
 package CSS::Packer;
 
-use 5.008008;
+use 5.008009;
 use warnings;
 use strict;
 use Carp;
 use Regexp::RegGrp;
 
-our $VERSION        = '0.05_01';
+our $VERSION        = '1.000';
 
 our $DICTIONARY     = {
-    STRING1 => qr~"(?>(?:(?>[^"\\]+)|\\.|\\"|\\\s)*)"~,
-    STRING2 => qr~'(?>(?:(?>[^'\\]+)|\\.|\\'|\\\s)*)'~
+    'STRING1'   => qr~"(?>(?:(?>[^"\\]+)|\\.|\\"|\\\s)*)"~,
+    'STRING2'   => qr~'(?>(?:(?>[^'\\]+)|\\.|\\'|\\\s)*)'~
 };
 
 our $WHITESPACES    = '\s+';
@@ -316,7 +316,7 @@ CSS::Packer - Another CSS minifier
 
 =head1 VERSION
 
-Version 0.05_01
+Version 1.000
 
 =head1 DESCRIPTION
 
